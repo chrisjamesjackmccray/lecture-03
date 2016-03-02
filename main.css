@@ -18,18 +18,19 @@ header {
 }
 
 .center {
-  width: 400px;
+  width: 450px;
   height: 400px;
   background-color: black;
-  float: right;
+  float: left;
   color: darkgrey;
 }
 
 .sidetext {
-  width: 200px;
+  width: 220px;
   height: 400px;
   background-color: crimson;
   color: darkgrey;
   float: left;
+  margin: 0 50px 0 0
 
 }
