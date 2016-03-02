@@ -1,0 +1,23 @@
+main + a{
+  text-transform: uppercase;
+}
+
+a{
+  text-transform: uppercase;
+}
+
+
+
+main > a{
+  color: goldenrod;
+  font-size:2rem;
+}
+
+.example-grandchild{
+  color:red;
+  text-decoration: none;
+}
+
+a.example-grandchild#reddit{
+  font-size: 3rem;
+}
