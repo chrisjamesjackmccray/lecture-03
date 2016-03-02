@@ -1,31 +1,35 @@
-body {
-  margin: 100px 0 0;
-
-}
-
-div {
-  height: 150px;
-  width: 100px;
-  background-color: crimson;
+img {
+  width: 500px;
+  hight: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-40px, -75px);
+
+
 }
 
-
-
-main {
-  width: 100px;
-  height: 50px;
-  background-color: burlywood;
-
-
+.center {
+  width: 550px;
+  height: 200px;
+  position: relative;
+  float: center;
+  background-color: black;
+  margin: 0 0 0 450px;
+  margin-top: 30px;
 }
 
 article {
-  width: 100px;
-  height: 20px;
-  background-color: black;
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  align: center;
+  float: right;
+}
 
+h1 {
+  color: darkgrey;
+}
+
+p {
+  color: darkgrey;
 }
