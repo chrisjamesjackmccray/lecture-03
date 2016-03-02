@@ -10,7 +10,7 @@ header {
 
 
 .big {
-  background-color: grey;
+  background-color: none;
   height: 800px;
   color: black;
   width: 900px;
@@ -18,19 +18,36 @@ header {
 }
 
 .center {
-  width: 450px;
-  height: 400px;
-  background-color: black;
+  width: 470px;
+  height: 200px;
+  background-color: none;
   float: left;
-  color: darkgrey;
+  color: black;
+
+}
+
+.picture {
+  width: 470px;
+  height: 600px;
+  background-color: none;
+  float: left;
+  background-image: url(http://i.giphy.com/y3kd73GbgbsCk.gif);
 }
 
 .sidetext {
   width: 220px;
-  height: 400px;
-  background-color: crimson;
-  color: darkgrey;
+  height: 700px;
+  background-color: none;
+  color: black;
   float: left;
-  margin: 0 50px 0 0
+  margin: 0 50px 0 0;
 
+}
+
+.sidetext p {
+  color: darkgrey;
+}
+
+.center p {
+  color: darkgrey;
 }
