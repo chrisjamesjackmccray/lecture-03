@@ -34,15 +34,28 @@ header {
   background-image: url(http://i.giphy.com/y3kd73GbgbsCk.gif);
 }
 
+.smile {
+  width: 100px;
+  height: 100px;
+  background-color: none;
+  position: absolute;
+  margin: 200px 0 0 0;
+  border-bottom: 1px solid darkgrey;
+  border-top: 1px solid darkgrey;
+  border-left: 1px solid darkgrey;
+  border-right: 1px solid darkgrey;
+}
+
 .sidetext {
   width: 220px;
-  height: 700px;
-  background-color: none;
   color: black;
   float: left;
   margin: 0 50px 0 0;
+  border-bottom: 1px solid black;
 
 }
+
+
 
 .sidetext p {
   color: darkgrey;
