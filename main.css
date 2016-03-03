@@ -9,6 +9,8 @@ header {
 }
 
 
+
+
 .big {
   background-color: none;
   height: 800px;
@@ -40,19 +42,23 @@ header {
   background-color: none;
   position: absolute;
   margin: 200px 0 0 0;
-  border-bottom: 1px solid darkgrey;
-  border-top: 1px solid darkgrey;
-  border-left: 1px solid darkgrey;
-  border-right: 1px solid darkgrey;
 }
 
-.sidetext {
+.search {
+  width: 75;
+  margin: 20px 0 0 0
+}
+
+.sidebar {
   width: 220px;
   color: black;
   float: left;
   margin: 0 50px 0 0;
-  border-bottom: 1px solid black;
 
+}
+
+.sidetext {
+  border-bottom: 1px solid black;
 }
 
 
