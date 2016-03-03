@@ -10,10 +10,13 @@ header {
 
 
 
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
 
 .big {
-  background-color: none;
-  height: 800px;
+  /*height: 800px;*/
   color: black;
   width: 900px;
   margin: 0 0 0 250px;
@@ -21,7 +24,7 @@ header {
 
 .center {
   width: 470px;
-  height: 200px;
+  /*height: 200px;*/
   background-color: none;
   float: left;
   color: black;
@@ -48,7 +51,7 @@ header {
 
 .search {
   width: 75;
-  margin: 20px 0 0 0
+  margin: 20px 0 0 0;
 }
 
 img {
@@ -78,4 +81,38 @@ img {
 
 .center p {
   color: darkgrey;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: none;
+  border-top: 2px solid grey;
+
+}
+
+section {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 75px;
+  background-color: none;
+  border: 2px solid black;
+
+}
+
+section p {
+  margin: 0%;
+  color: black;
+  Font-weight: 800%;
+  
+
+}
+
+.bottomtext {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+
 }
