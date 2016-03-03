@@ -89,7 +89,7 @@ img {
 
 footer {
   width: 100%;
-  height: 100px;
+  height: 200px;
   background-color: none;
   border-top: 2px solid grey;
 
@@ -137,4 +137,11 @@ section p {
   display: inline-block;
   background-color: none;
   background-image: url(http://thumb7.shutterstock.com/thumb_small/1206416/114792151/stock-photo-abstract-illustration-with-fairy-and-flower-background-114792151.jpg);
+}
+
+.text {
+  width: 800px;
+  height: 200px;
+  text-align: center;
+  margin: 0 0 0 320px;
 }
